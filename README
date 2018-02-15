@@ -1,0 +1,18 @@
+Points to remember:
+1)Lowest bid and winner for a project is only returned when the bidding deadline is over. During the process
+of bidding, this information should not be available to anyone.
+
+Steps to Launch:
+
+1) Clone the git repo
+2) cd marketplace 
+3) Execute the command "mvn clean spring-boot:run". This will start the application.
+4) Open http://localhost:8080/swagger-ui.html in the browser to look at the swagger UI for the Rest APIs
+5) Use the APIs from this UI to test the functionality of the project
+6) In-memory Database H2 can be seen by typing http://localhost:8080/console in the browser
+ 
+The time the exercise took (after dev environment is set up): 5 hours
+Exercise Difficulty: Easy
+How did you feel about the exercise itself? 10 highest—awesome way to assess coding ability
+How do you feel about coding an exercise as a step in the interview process? 10 highest—awesome way to assess coding ability
+What would you change in the exercise and/or process? Nothing
