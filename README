@@ -6,10 +6,11 @@ Steps to Launch:
 
 1) Clone the git repo
 2) cd marketplace 
-3) Execute the command "mvn clean spring-boot:run". This will start the application.
-4) Open http://localhost:8080/swagger-ui.html in the browser to look at the swagger UI for the Rest APIs
-5) Use the APIs from this UI to test the functionality of the project
-6) In-memory Database H2 can be seen by typing http://localhost:8080/console in the browser
+3) Install jdk and maven
+4) Execute the command "mvn clean spring-boot:run". This will start the application.
+5) Open http://localhost:8080/swagger-ui.html in the browser to look at the swagger UI for the Rest APIs
+6) Use the APIs from this UI to test the functionality of the project
+7) In-memory Database H2 can be seen by typing http://localhost:8080/console in the browser
  
 The time the exercise took (after dev environment is set up): 5 hours
 Exercise Difficulty: Easy
